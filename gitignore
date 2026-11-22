@@ -1,0 +1,41 @@
+# firmware dumps — never commit these
+flash.bin
+flash.bin.backup
+*.bin.backup
+bootloader.bin
+
+# prebuilt packages
+*.7z
+*.zip
+prebuilt/
+fpdoom_prebuilt/
+fpdoom-full/
+
+# build artifacts
+obj*/
+*.o
+*.elf
+*.asm
+*.d
+
+# toolchain (if downloaded locally)
+toolchain/
+armv5*.tar.xz
+
+# extracted game data (copyrighted, do not commit)
+DOOMSW/
+wolf3d_extracted/
+doom19.zip
+doom1.wad
+*.wl1
+*.wl6
+*.nes
+*.smc
+*.gb
+*.gbc
+
+# OS/editor
+.DS_Store
+*.swp
+*~
+.directory
