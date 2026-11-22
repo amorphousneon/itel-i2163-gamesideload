@@ -804,8 +804,10 @@ See [CREDITS.md](CREDITS.md) for details.
 
 ## License
 
-This guide is released under the [MIT License](LICENSE). The upstream fpdoom and spreadtrum_flash projects are under the Unlicense. Game data files (WADs, ROMs) retain their original copyrights and are NOT included in this repository.
+This guide is released under the [GPLv2 LICENSE](LICENSE). The upstream fpdoom and spreadtrum_flash projects are under the Unlicense. Game data files (WADs, ROMs) retain their original copyrights and are NOT (haha they are) included in this repository.
 
 ---
 
 *Tested on itel i2163 (SC6531E) with CachyOS. Last verified: November 2026.*
+
+# HELP TAKEN FROM GLM-5.2 HIGH
