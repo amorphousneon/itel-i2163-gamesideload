@@ -2,6 +2,9 @@
 
 > Complete walkthrough for running Doom, Wolfenstein 3D, Retris, and more on the **itel i2163** feature phone (Spreadtrum SC6531E) from a **CachyOS / Arch Linux** host.
 
+# the games are in releases haha. get em from there, alternatively visit https://github.com/amorphousneon/fp_wads_i2163
+# password of games.7z in releases: ``` itel-i2163-gamesideload ```
+
 ![Phone](https://img.shields.io/badge/Phone-itel%20i2163-blue)
 ![Chip](https://img.shields.io/badge/Chipset-SC6531E-green)
 ![LCD](https://img.shields.io/badge/LCD-128%C3%97160%20GC9106-orange)
