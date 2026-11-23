@@ -2,6 +2,8 @@
 
 > Complete walkthrough for running Doom, Wolfenstein 3D, Retris, and more on the **itel i2163** feature phone (Spreadtrum SC6531E) from a **CachyOS / Arch Linux** host.
 
+## VISIT ``` inside-sd-card ``` branch to get the files to put in the SD CARD you'll be plugging into your lovely i2163.
+
 ![Phone](https://img.shields.io/badge/Phone-itel%20i2163-blue)
 ![Chip](https://img.shields.io/badge/Chipset-SC6531E-green)
 ![LCD](https://img.shields.io/badge/LCD-128%C3%97160%20GC9106-orange)
