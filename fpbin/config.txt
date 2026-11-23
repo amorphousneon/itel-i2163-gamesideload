@@ -3,7 +3,7 @@
 # Comments begin with a hash sign.
 # The first non-empty line specifies the arguments to run the flat binary named "fpbin/fpmain.bin":
 
---bright 50 --charge 2
+--bright 35 --charge 2
 
 # If the "fpmenu" is located in this path, it will read the config file further.
 
@@ -41,27 +41,34 @@ $doom = fpbin/fpdoom.bin $@
 # |Name| path/to/app.bin arg1 arg2 arg3
 
 |=== Ports ===|
-|Doom 1| $doom --dir games/doom1 doom # -timedemo demo1
+|DOOM 1| fpbin/chocolate-doom.bin $@ --dir games/doomf doom -iwad doomf.wad
+|DOOM 2| $doom --dir games/doom2 doom2
+|Heretic| fpbin/chocolate-heretic.bin $@ --dir games/heretic heretic -iwad HERETIC1.WAD
+|Retris| fpbin/retris.bin $@0 --dir games/retris retris
+|Wolfenstein 3D| fpbin/wolf3d.bin $@ --dir games/wolf3d wolf3d
+|ThePlutoniaExpt.| $doom --dir games/plutonia plutonia
+|TNT Evilution| $doom --dir games/tnt tnt
+|DOOM-demo| fpbin/chocolate-doom.bin $@ --dir games/doom1 doom -iwad doom1.wad
+|Hexen| fpbin/chocolate-hexen.bin $@ --dir games/hexen hexen -iwad HEXEN.WAD
+|Hexen vFPD| $doom --dir games/hexen hexen
 |Duke 3D| fpbin/fpduke3d.bin $@ --dir games/duke3d duke3d # -cachesize 1648
 |Shadow Warrior| fpbin/fpsw.bin $@ --dir games/sw sw # -cachesize 1552
 |Blood| fpbin/fpblood.bin $@ --dir games/blood blood # -cachesize 1648
-|Wolfenstein 3D| fpbin/wolf3d.bin $@ --dir games/wolf3d wolf3d
+|Wolfen3D vOLD| fpbin/wolf3d_sw.bin $@ --dir games/wolf3d_sw wolf3d_sw
 # Use the "-mb x.xx" option to change the cache size for Chocolate Doom.
-|Choco Doom| fpbin/chocolate-doom.bin $@ --dir games/doom1 doom -iwad doom1.wad
-|Heretic| fpbin/chocolate-heretic.bin $@ --dir games/heretic heretic -iwad HERETIC1.WAD
-|Hexen| fpbin/chocolate-hexen.bin $@ --dir games/hexen hexen -iwad HEXEN.WAD
-|Retris| fpbin/retris.bin $@0 --dir games/retris retris
 
 #1234567890123456# 128px = 16 chars
 #12345678901234567890# 160px = 20 chars
 #123456789012345678901234567890# 240px = 30 chars
 
+|=== GameBoy ===|
+|GTA 1| $gnuboy gta1.gbc
+|GTA II| $gnuboy gta2.gbc
+
 |=== SNES ===|
 |SNES Example 1| $snes "Example 1.smc"
 |SNES Example 2| $snes16 "Example 2.smc"
 
-|=== GameBoy ===|
-|GB Example 1| $gnuboy "Example 1.gbc"
 
 |=== NES ===|
 |NES Example 1| $nes "Example 1.nes"
