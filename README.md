@@ -7,7 +7,7 @@
 ![Phone](https://img.shields.io/badge/Phone-itel%20i2163-blue)
 ![Chip](https://img.shields.io/badge/Chipset-SC6531E-green)
 ![LCD](https://img.shields.io/badge/LCD-128%C3%97160%20GC9106-orange)
-![OS](https://img.shields.io/badge/Host-CachyOS%20%2F%20Arch-1793d1)
+![OS](https://img.shields.io/badge/Host-Arch-1793d1)
 ![Status](https://img.shields.io/badge/Status-Working-brightgreen)
 
 ---
